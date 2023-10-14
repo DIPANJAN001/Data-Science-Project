@@ -1,5 +1,6 @@
 
 from sklearn.model_selection import train_test_split
+import numpy as np
 
 def lstm_data_transform(x_data, y_data, num_steps):
     """ Changes data to the format for LSTM training 

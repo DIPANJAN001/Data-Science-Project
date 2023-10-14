@@ -7,8 +7,8 @@ def main():
     # Load data
     data = load_data(filepath)
     x,y=data_spliting(data)
-    plot(y)
-    #a,b,c,d= data_preprocess(x,y)
+
+   
 
     
 
